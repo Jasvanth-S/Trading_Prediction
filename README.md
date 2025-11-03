@@ -53,24 +53,26 @@ Trading_Prediction/
 
 ##Create virtual environment (optional)
 
->>>python -m venv venv
->>>source venv/bin/activate       # On Mac/Linux  
->>>venv\Scripts\activate          # On Windows
+python -m venv venv
+source venv/bin/activate       # On Mac/Linux  
+venv\Scripts\activate          # On Windows
 
+---
 
 ##Install dependencies
 
->>>pip install -r requirements.txt
+pip install -r requirements.txt
 
+---
 
 or manually install:
 
->>>pip install streamlit scikit-learn yfinance matplotlib
+pip install streamlit scikit-learn yfinance matplotlib
 
 
 ##Run the app
 
->>>streamlit run app.py
+streamlit run app.py
 
 
 ##Open in your browser at
@@ -85,6 +87,8 @@ If you’re running in Colab:
 
 Then click the generated public link to open your live dashboard.
 
+---
+
 ##🎛️ How It Works
 
 Fetch Data → Uses Yahoo Finance for live stock data
@@ -97,11 +101,13 @@ Visualize → Plots actual prices and model’s buy signals
 
 Predict → Shows whether next day’s price will rise or fall
 
+---
+
 ##📸 Example Output
 ✅ Model Accuracy: 82.45%
 📈 The model predicts: Price will go UP tomorrow.
 
-
+---
 
 ##🧠 Future Enhancements
 
